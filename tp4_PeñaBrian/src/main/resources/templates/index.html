@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th = http//www.thymeleaf.org>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facultad de Derecho y Ciencias Sociales</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<header th:replace="~{/layouts/header :: header}">
+	</header>
+
+	<div class="container-fluid col-10">
+		<div class="row">
+            <aside class="col-md-3 py-4 mt-5">
+				<h5>Enlaces de Interes</h5>
+				<div class="list-group">
+					<a href="http://biblioteca.derecho.unt.edu.ar"
+						class="list-group-item list-group-item-action"
+						aria-label="Biblioteca">Biblioteca</a> <a
+						href="https://www.derecho.unt.edu.ar/contenido.php?tipo=calendarioacademico"
+						class="list-group-item list-group-item-action"
+						aria-label="Calendario Académico">Calendario Académico</a> <a
+						href="https://guarani.unt.edu.ar/autogestion/"
+						class="list-group-item list-group-item-action"
+						aria-label="UNJu Virtual">Siu Guarani</a>
+				</div>
+			</aside>
+			<main class="col-md-9 py-4">
+				<section class="mb-4" id="acerca-de">
+					<div class="container mt-5">
+						<h2>Facultad de Derecho y Ciencias Sociales</h2>
+						<p class="lead">Un Legado de Formación al
+							Servicio de la Sociedad</p>
+
+						<p>Los antecedentes de la enseñanza del Derecho en Tucumán se remontan a 1875, cuando el gobierno provincial de aquel entonces fundó una Facultad de Jurisprudencia y Ciencias Políticas, que sirviera de base para la futura Universidad. La experiencia no tuvo una larga vida y la Casa de Estudios se cerró en 1882. En 1914 volvió la actividad académica, a partir de la creación de la Universidad Nacional de Tucumán (UNT).</p>
+						<p>La Facultad de Derecho y Ciencias Sociales tiene su origen en la resolución dictada el 7 de abril de 1938, fecha en la que el Consejero Alfredo Coviello presentó al Consejo Superior de la UNT el proyecto de creación de las Facultades de Derecho y de Bioquímica. El art. 1 de dicha resolución dispone aprobar, en principio, una Facultad de Derecho y Ciencias Sociales, de conformidad a lo dispuesto por el Honorable Consejo Superior de fecha 26 de marzo de 1938. La iniciativa de Coviello fue ampliamente discutida en dos sesiones especiales del HCS, siendo considerada con carácter definitivo el 19 de abril de 1938.</p>
+						<p>Nuestra actual Casa de Estudios fue inaugurada el 30 de junio de 1938, creándose las carreras de Abogacía, Escribanía y Procuración. La ceremonia inaugural se realizó en el Salón de Actos de la Biblioteca Alberdi, a la cual asistieron el entonces el gobernador de la Provincia, Dr. Miguel M. Campero, junto al rector de la UNT, Dr. Julio Prebisch, el presidente de la Corte de Justicia, Dr. Juan Heller, profesores universitarios, funcionarios públicos, estudiantes, y público en general.</p>
+						<p>El viernes 1 de julio de 1938, la Facultad de Derecho y Ciencias Sociales inició formalmente sus actividades docentes en el edificio de la Escuela y Liceo Vocacional Sarmiento, con 133 alumnos inscriptos. Luego de  trasladarse a una casa céntrica, finalmente en 1959 se realizó la adquisión de la antigua mansión de la calle 25 de Mayo 471/459, construida por Doña Adela Sabini de Remis; donde funciona actualmente.</p>
+						<p>La instalación de la Facultad de Derecho no respondía solamente a una exigencia de la cultura, sino que conformaba los requerimientos de la joven Universidad, ávida de responder a los reclamos de una realidad palpitante, adquiriendo las dimensiones definitivas como la primera Casa de Estudios Superiores del norte del país.</p>
+					</div>
+				</section>
+
+				<section>
+					<div class="container mt-5" id="noticias">
+						<h2>Noticias Destacadas</h2>
+						<div class="row">
+							<div class="col-md-4 mb-4">
+								<div class="card h-100">
+									<img src="images/1700076540777073729.jpeg" class="card-img-top" height="200"
+										alt="Noticia 1">
+									<div class="card-body">
+										<h5 class="card-title">El sistema constitucional del <br> Reino Unido, bajo la lupa de <br> Jonas Elfman</h5>
+										<p class="card-text">El seminario de filosofia juridica y teoria <br> politica "El Foro" llevara a cabo un <br> encuentro via remota del que <br> participara el autor.</p>
+										<a
+											href="https://www.derecho.unt.edu.ar/contenido.php?tipo=noticia&id=1288"
+											class="btn btn-danger">Leer más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 mb-4">
+								<div class="card h-100">
+									<img src="images/algo.jpeg" class="card-img-top"
+										alt="Noticia 2">
+									<div class="card-body">
+										<h5 class="card-title">LLAMADO A CONCURSO DE <br> ANTECEDENTES Y OPOSICION DE <br> JTP Y AUXILIARES
+											</h5>
+										<p class="card-text">Llamado a concursos de antecedetes <br> (titulos y meritos) y Oposicion de <br> Auxiliares y Jefes de Trabajo Practico</p>
+										<a
+											href="https://www.derecho.unt.edu.ar/contenido.php?tipo=noticia&id=1290"
+											class="btn btn-danger">Leer más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 mb-4">
+								<div class="card h-100">
+									<img src="images/algo2.jpeg" class="card-img-top"
+										alt="Noticia 3">
+									<div class="card-body">
+										<h5 class="card-title">CONCURSOS DE ANTECEDENTES <br> Y OPOSICION DE AUXILIARES Y <br> JEFES DE TRABAJOS PRACTICOS</h5>
+										<p class="card-text">PUBLICACION DE ACTAS DE POSTULANTES <br> Y JURADOS DE LOS CONCURSOS <br> LLAMADOS POR RESOLUCION D-SA N <br> 0969/2023</p>
+										<a
+											href="https://www.derecho.unt.edu.ar/contenido.php?tipo=noticia&id=1299"
+											class="btn btn-danger">Leer más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 mb-4">
+								<div class="card h-100">
+									<img src="images/ALGO3.jpeg" class="card-img-top"
+										alt="Noticia 4">
+									<div class="card-body">
+										<h5 class="card-title">Cronograma de Reinscripcion <br> Anual y Bloques de Inscripcion <br> - Primer Semestre, Ciclo Lectivo</h5>
+										<p class="card-text">Informacion sobre el cronograma de <br> reinscripcion anual y bloques de <br> inscripcion para el primer semestre <br> del ciclo lectivo 2024</p>
+										<a
+											href="https://www.derecho.unt.edu.ar/contenido.php?tipo=noticia&id=1322"
+											class="btn btn-danger">Leer más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 mb-4">
+								<div class="card h-100">
+									<img src="images/algo4.svg" class="card-img-top"
+										alt="Noticia 5">
+									<div class="card-body">
+										<h5 class="card-title">ELECCIONES DE RENOVACION <br> TOTAL DE MIEMBROS DEL <br> CONSEJO DIRECTIVO</h5>
+										<p class="card-text">EXHIBICION DE LISTAS DE CANDIDATOS <br> DEL ESTAMENTO ESTUDIANTIL</p>
+										<a
+											href="https://www.derecho.unt.edu.ar/contenido.php?tipo=noticia&id=1351"
+											class="btn btn-danger">Leer más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 mb-4">
+								<div class="card h-100">
+									<img src="images/16996278622020936704.jpeg" class="card-img-top"
+										alt="Noticia 6">
+									<div class="card-body">
+										<h5 class="card-title">INGRESO CICLO LECTIVO 2024</h5>
+										<p class="card-text">Informacion para el ingreso de <br> estudiantes a la Facultad de Derecho <br> ciclo lectivo 2024</p>
+										<a
+											href="https://www.derecho.unt.edu.ar/contenido.php?tipo=noticia&id=1282"
+											class="btn btn-danger">Leer más</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</div>
+
+	<footer th:replace="~{/layouts/footer :: footer}">
+	</footer>
+	<script
+		src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+		integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+		crossorigin="anonymous"></script>
+</body>
+</html>
