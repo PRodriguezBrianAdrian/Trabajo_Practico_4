@@ -6,10 +6,11 @@ public class Materia {
 	private String curso;
 	private String cantidadHoras;
 	private String modalidad;
-	private String docente;
+	private Docente docente;
+	
 
-	public Materia(String codigo, String nombre, String curso, String cantidadHoras, String modalidad, String docente) {
-
+	public Materia(String codigo, String nombre, String curso, String cantidadHoras, String modalidad, Docente docente) {
+		super();
 		this.codigo = codigo;
 		this.nombre = nombre;
 		this.curso = curso;
@@ -18,12 +19,12 @@ public class Materia {
 		this.docente = docente;
 	}
 
-
+	// Constructor por defecto
 	public Materia() {
 		super();
 	}
 
-
+	// Métodos de acceso y modificación
 	public String getCodigo() {
 		return codigo;
 	}
@@ -64,11 +65,11 @@ public class Materia {
 		this.modalidad = modalidad;
 	}
 
-	public String getDocente() {
+	public Docente getDocente() {
 		return docente;
 	}
 
-	public void setDocente(String docente) {
+	public void setDocente(Docente docente) {
 		this.docente = docente;
 	}
 

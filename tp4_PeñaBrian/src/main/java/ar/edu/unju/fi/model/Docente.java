@@ -16,12 +16,12 @@ public class Docente {
 		this.telefono = telefono;
 	}
 
-
+	// Constructor por defecto
 	public Docente() {
 		super();
 	}
 
-
+	// Métodos de acceso y modificación
 	public String getLegajo() {
 		return legajo;
 	}
